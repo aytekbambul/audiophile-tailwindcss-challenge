@@ -1,0 +1,13 @@
+{
+  "name": "audiophile-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwatch": "npx tailwindcss -i ./input.css -o ./style.css --watch --minify",
+    "tailbuild": "npx tailwindcss -i ./input.css -o ./style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
